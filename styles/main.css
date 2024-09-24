@@ -1,0 +1,34 @@
+body {
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    font-size: 20px;
+  }
+  
+  .terminal {
+    font-family: "IBM Plex Mono", monospace;
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .console-line {
+    color: rgb(0, 178, 0);
+  }
+  
+  .game-image-container {
+    white-space: pre; /* Preserve formatting */
+    width: 400px; /* Adjust as needed */
+    margin: 20px auto;
+    font-family: monospace; /* Ensure monospace font for ASCII art */
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
